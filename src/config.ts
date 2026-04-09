@@ -1,6 +1,6 @@
 import type {
     CommentConfig,
-    ExpressiveCodeConfig,
+    ExpressiveCodeConfig, FriendLink,
     LicenseConfig,
     NavBarConfig,
     ProfileConfig,
@@ -101,3 +101,15 @@ export const commentConfig: CommentConfig = {
         envId: 'https://twikoo.lxcurry.top',
     },
 }
+
+
+
+export const friendLinks: FriendLink[] = [
+    {
+        name: "xyt",
+        url: "https://www.xiayutian.xyz/",
+        description: "这是一个示例友链的描述",
+        avatar: "https://example.com/avatar.jpg",
+    },
+    // 在这里添加更多友链
+];
