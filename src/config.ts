@@ -1,4 +1,5 @@
 import type {
+    CommentConfig,
     ExpressiveCodeConfig,
     LicenseConfig,
     NavBarConfig,
@@ -49,6 +50,10 @@ export const navBarConfig: NavBarConfig = {
             url: "/message/"
         },
         {
+            name: "友链",
+            url: "/friend/"
+        },
+        {
             name: "GitHub",
             url: "https://github.com/snnxh", // Internal links should not include the base path, as it is automatically added
             external: true, // Show an external link icon and will open in a new tab
@@ -89,3 +94,10 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
     // Please select a dark theme, as this blog theme currently only supports dark background color
     theme: "github-dark",
 };
+
+// twikoo评论插件
+export const commentConfig: CommentConfig = {
+    twikoo: {
+        envId: 'https://twikoo.lxcurry.top',
+    },
+}

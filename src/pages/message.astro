@@ -1,24 +1,24 @@
 ---
-
-import { getEntry, render } from "astro:content";
+import {getEntry, render} from "astro:content";
 import Markdown from "@components/misc/Markdown.astro";
 import I18nKey from "../i18n/i18nKey";
-import { i18n } from "../i18n/translation";
+import {i18n} from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
+import Twikoo from "../components/comment/Twikoo.astro";
 
 const messagePost = await getEntry("spec", "message");
 
 if (!messagePost) {
-	throw new Error("About page content not found");
+    throw new Error("About page content not found");
 }
 
-const { Content } = await render(messagePost);
+const {Content} = await render(messagePost);
 ---
 <MainGridLayout title="留言板">
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">
-                <Content />
+                <Content/>
             </Markdown>
         </div>
     </div>

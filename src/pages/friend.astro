@@ -5,15 +5,15 @@ import I18nKey from "../i18n/i18nKey";
 import {i18n} from "../i18n/translation";
 import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-const aboutPost = await getEntry("spec", "about");
+const friendLinkPost = await getEntry("spec", "friend");
 
-if (!aboutPost) {
-    throw new Error("About page content not found");
+if (!friendLinkPost) {
+    throw new Error("friendLink page content not found");
 }
 
-const {Content} = await render(aboutPost);
+const {Content} = await render(friendLinkPost);
 ---
-<MainGridLayout title={i18n(I18nKey.about)} description={i18n(I18nKey.about)}>
+<MainGridLayout title="友链">
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
         <div class="card-base z-10 px-9 py-6 relative w-full ">
             <Markdown class="mt-2">
