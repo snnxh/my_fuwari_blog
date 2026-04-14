@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bd6582eaf8096264",
+        "id": "e9061e41b793b3b6",
         "type": "tabs",
         "children": [
           {
-            "id": "9f20fd13b79f85dc",
+            "id": "c32d826ec90a339f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -183,10 +183,20 @@
       "bases:新建数据库": false
     }
   },
-  "active": "9f20fd13b79f85dc",
+  "active": "c32d826ec90a339f",
   "lastOpenFiles": [
-    "Pasted image 20260411175338.png",
+    "2026-04-11.md",
     "posts/choMiYeon.md",
+    "assets/images/choMiYeon-1.png",
+    "assets/images/choMiYeon.png",
+    "assets/images/choMiYeon.png",
+    "assets/images/choMiYeon-3.png",
+    "assets/images/choMiYeon-2.png",
+    "assets/images",
+    "assets",
+    "未命名.base",
+    "posts/draft.md",
+    "Pasted image 20260411175338.png",
     "Pasted image 20260411175115.png"
   ]
 }
