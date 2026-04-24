@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/choMiYeon.md",
+                "file": "posts/draft.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "choMiYeon"
+              "title": "draft"
             }
           }
         ]
@@ -185,13 +185,13 @@
   },
   "active": "187c9bde90e301e4",
   "lastOpenFiles": [
-    "posts/jenkins.md",
-    "posts/choMiYeon.md",
-    "posts/video.md",
-    "posts/markdown-extended.md",
-    "posts/draft.md",
-    "posts/markdown.md",
     "posts/expressive-code.md",
+    "posts/jenkins.md",
+    "posts/markdown.md",
+    "posts/markdown-extended.md",
+    "posts/video.md",
+    "posts/draft.md",
+    "posts/choMiYeon.md",
     "assets/images/1760943960388.png",
     "spec/message.md",
     "spec/friend.md",
