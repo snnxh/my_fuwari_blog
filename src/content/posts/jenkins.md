@@ -472,7 +472,7 @@ node安装完毕之后，我们需要去jenkins下载node插件
 
 ## 部署nginx
 
-**nginx有很多细致的东西，但是此文章只展示如何使用nginx部署前端项目**
+**nginx有很多细致的东西，但是此文章只展示如何使用nginx部署项目**
 
 下载nginx：[nginx: download](https://nginx.org/en/download.html)
 
