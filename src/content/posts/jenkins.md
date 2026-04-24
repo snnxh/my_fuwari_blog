@@ -6,7 +6,7 @@ image: ""
 tags:
   - jenkins
 category: 技术
-draft: true
+draft: false
 lang: ""
 ---
 # 服务器部署前后端项目
