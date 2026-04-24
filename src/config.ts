@@ -112,3 +112,5 @@ export const friendLinks: FriendLink[] = [
     },
     // 在这里添加更多友链
 ];
+
+
